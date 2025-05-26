@@ -1,5 +1,5 @@
 # EMI-calculator
-A web application with intuitive UI to calculate the EMI for different type of loans
+A web application with an intuitive UI to calculate the EMI for different types of loans
 
 # To start the server
 1. Fork, clone download the project.

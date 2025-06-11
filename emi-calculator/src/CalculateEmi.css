@@ -1,0 +1,118 @@
+.calculate-emi-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.emi-calculate-icon {
+    display: flex;
+    color: blue;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    margin-left: 30px;
+    margin-top: -22px;
+    margin-bottom: 30px;
+}
+
+.loan-amount-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.interest-rate-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.loan-tenure-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.grace-period-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px; 
+}
+
+.calculate-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #9b2de1 100%);
+}
+
+.clear-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #9b2de1 100%);
+}
+
+.loan-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.rate-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.loanTenure-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.gracePeriod-text-color  {
+    color: rgb(94, 89, 89)
+}
+
+.info-text {
+    color: #6c757d;
+    font-size: small;
+    margin-top: -15px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LoanCategoriesButtons from './LoanCategoriesButtons';
+import CalculateEmi from './CalculateEmi';
 import {Calculator} from "lucide-react"
 import './App.css'
 
@@ -17,6 +18,7 @@ function EmiCalculator() {
       </header>
       <section aria-label="Loan Categories">
         <LoanCategoriesButtons activeForm={activeForm} onFormSwitch={setActiveForm}/>
+        {activeForm && (<CalculateEmi type = {activeForm} onBack = {()=> setActiveForm(null)}/>)}
       </section>
     </main>
   )

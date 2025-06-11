@@ -1,0 +1,39 @@
+.emi-result-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 110px;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #9b2de1 100%);
+    color: white;
+}
+
+.emi-result-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.emi-result-value {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.grace-period-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .emi-result-container {
+      width: 90%;
+      padding: 16px;
+    }
+}

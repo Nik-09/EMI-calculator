@@ -80,11 +80,7 @@
     border-radius: 7px;
   }
   
-@media (max-width: 600px) {
-    .loan-type-card {
-      width: 90%;
-      padding: 16px;
-    }
+@media (max-width: 480px) {
   
     .loan-options {
         grid-template-columns: repeat(2, 1fr);

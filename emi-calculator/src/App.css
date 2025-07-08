@@ -1,3 +1,13 @@
+.emi-calculator-conatiner {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 1px;
+}
+
 .emi-calculator-header{
     max-width: 550px;
     margin: 40px auto;

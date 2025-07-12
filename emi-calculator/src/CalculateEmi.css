@@ -1,0 +1,430 @@
+.calculate-emi-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.emi-calculate-icon {
+    display: flex;
+    color: blue;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    margin-left: 30px;
+    margin-top: -22px;
+    margin-bottom: 30px;
+}
+
+.loan-amount-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.interest-rate-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.loan-tenure-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.grace-period-box {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px; 
+}
+
+.calculate-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #9b2de1 100%);
+}
+
+.clear-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #9b2de1 100%);
+}
+
+.loan-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.rate-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.loanTenure-text-color {
+    color: rgb(94, 89, 89)
+}
+
+.graceType-text-color{
+    color: rgb(94, 89, 89)
+}
+
+.gracePeriod-text-color  {
+    color: rgb(94, 89, 89)
+}
+
+.grace-type-box {
+    width: 104%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.info-text {
+    color: #6c757d;
+    font-size: small;
+    margin-top: -15px;
+}
+
+.principal-amount-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 33px;
+}
+
+.bank-note-icon {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    padding: 2px;
+    background-color: #e8f7ed;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.amount-label {
+    margin-left: 55px;
+    margin-top: -40px;
+    font-weight: 100;
+    color: rgb(94, 89, 89);
+}
+
+.amount-value {
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+.grace-period-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 33px;
+}
+
+.calendar-icon{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    padding: 2px;
+    background-color: lavender;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.grace-period-label {
+    margin-left: 55px;
+    margin-top: -40px;
+    font-weight: 100;
+    color: rgb(94, 89, 89);
+}
+
+.grace-period-value {
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+.total-interest-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 33px;
+}
+
+.trending-up-icon {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    padding: 2px;
+    background-color: cornsilk;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.total-interest-label {
+    margin-left: 55px;
+    margin-top: -40px;
+    font-weight: 100;
+    color: rgb(94, 89, 89);
+}
+
+.total-interest-value {
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+.total-amount-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 33px;
+}
+
+.clock-icon {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    padding: 2px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.total-amount-label {
+    margin-left: 55px;
+    margin-top: -40px;
+    font-weight: 100;
+    color: rgb(94, 89, 89);
+}
+
+.total-amount-value {
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+.payment-breakdown-container {
+    max-width: 385px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 150px;
+}
+
+.payment-breakdown-title {
+    color: #575a5c;
+    margin-top: -15px;
+}
+
+.principal-item {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal-label {
+    color: rgb(158, 147, 147);
+}
+
+.principal-percentage-label {
+    margin-left: 340px;
+    margin-top: -38px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.progress.principal {
+  height: 100%;
+  background-color: green;
+}
+
+.interest-item {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest-label {
+    color: rgb(158, 147, 147);
+}
+
+.interest-percentage-label {
+    display: flex;
+    margin-left: 340px;
+    margin-top: 0px;
+}
+
+.progress.interest {
+  height: 100%;
+  background-color: orange;
+}
+
+.recommended-header {
+    display: flex;
+    max-width: 447px;
+    justify-content: space-between;
+    margin: -1rem auto;
+}
+.recommended-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 13px;
+    word-wrap: break-word;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+.recommended-card-sponsored-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #000;
+    background-color: #d9dce4;
+    padding: 4px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    margin-top: 12px;
+}
+
+.recommended-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    height: 80px;
+    width: 385px;
+    margin-left: -32px;
+    margin-block: auto;
+}
+
+.desclaimer-text {
+    font-size: 0.85rem;
+    color: #444;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .loan-amount-box,
+    .interest-rate-box,
+    .loan-tenure-box,
+    .grace-period-box,
+    .grace-type-box {
+      font-size: 0.95rem;
+      padding: 0.6rem 0.8rem;
+    }
+  
+    .amount-label,
+    .amount-value,
+    .grace-period-label,
+    .grace-period-value,
+    .total-interest-label,
+    .total-interest-value,
+    .total-amount-label,
+    .total-amount-value {
+      font-size: 1rem;
+      margin-left: 45px;
+    }
+  
+    .calculate-button,
+    .clear-button {
+      font-size: 0.95rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .recommended-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .recommended-card-title {
+        font-size: 1rem;
+        margin-top: 5px; 
+    }
+
+      .recommended-card-sponsored-label {
+        font-size: 12px;
+        margin-top: -2rem;
+        margin-left: auto;
+      }
+  }

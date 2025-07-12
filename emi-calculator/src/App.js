@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import LoanCategoriesButtons from './LoanCategoriesButtons';
+import CalculateEmi from './CalculateEmi';
+import {Calculator} from "lucide-react"
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+function EmiCalculator() {
+  const [activeForm, setActiveForm] = useState(null);
+
+  return(
+    <main className='emi-calculator-conatiner'>
+      <header className='emi-calculator-header'>
+      <div className="icon-calculator-box" >
+        <Calculator className='emi-calculator-icon' size={35} />
+      </div>
+      <h1 className='emi-calculator-title'>EMI calculator</h1>
+      <p className='emi-calculator-subtitle'>Calculate your loan payments</p>
       </header>
-    </div>
-  );
+      <section aria-label="Loan Categories">
+        <LoanCategoriesButtons activeForm={activeForm} onFormSwitch={setActiveForm}/>
+        {activeForm && (<CalculateEmi type = {activeForm} onBack = {()=> setActiveForm(null)}/>)}
+      </section>
+    </main>
+  )
 }
 
-export default App;
+export default EmiCalculator;

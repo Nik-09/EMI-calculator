@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.emi-calculator-conatiner {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
   min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 1px;
+}
+
+.emi-calculator-header{
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.icon-calculator-box {
+  background-color: blue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 40px;
+  margin-bottom: -67px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.emi-calculator-icon {
+  display: flex;
+  margin-left: 7px;
+  margin-top: 7px;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.emi-calculator-title {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 12px;
+}
+
+.emi-calculator-subtitle {
+  display: flex;
+  margin-left: 100px;
+  margin-top: -17px;
+}
+
+@media(max-width: 363px) {
+  .emi-calculator-title {
+    font-size: 7vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(max-width: 358px) {
+  .emi-calculator-subtitle {
+    font-size: 4vw;
+    margin-left: 100px;
+    margin-top: -11px;
   }
 }
